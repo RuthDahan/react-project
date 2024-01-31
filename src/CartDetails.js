@@ -1,6 +1,5 @@
 import React from 'react';
 import { useSelector, useDispatch } from "react-redux";
-// import { useNavigate } from "react-router-dom";
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import { deleteFromCart } from './redux/action/cartActions';
