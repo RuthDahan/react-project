@@ -12,14 +12,12 @@ import { BsCartDash } from "react-icons/bs";
 import { BsCreditCard } from "react-icons/bs";
 import { BsCurrencyDollar } from "react-icons/bs";
 import { useNavigate } from 'react-router-dom';
-// import { BiShekel } from "react-icons/bs";
 import GoToPayment from ".//GoToPayment";
 
 function CartDetails() {
     const cartArray = useSelector((state) => state.cartReducer);
     const dispatch = useDispatch();
     const navigate = useNavigate()
-    // document.body.style.backgroundColor="pink";
     function Pay() {
         let sum = 0;
         cartArray.forEach(product => {
