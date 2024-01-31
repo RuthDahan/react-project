@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 function About() {
     const navigate = useNavigate()
-    // document.body.style.backgroundColor="pink";
     return (
         <div style={{fontSize:"30px"}}>
             <br/><h1>About Our Shop</h1><br/>
