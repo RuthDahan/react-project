@@ -2,12 +2,7 @@ import React from 'react';
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from 'react';
 import Table from 'react-bootstrap/Table';
-import { deleteFromCart } from './redux/action/cartActions';
-import { addQty } from './redux/action/productAction';
-import { reductionQtyFromCart, additionQtyToCart } from "./redux/action/cartActions";
-import { BsFillTrashFill } from "react-icons/bs";
 import { BsCurrencyDollar } from "react-icons/bs";
-import CartDetails from './CartDetails';
 function GoToPayment() {
 
     useEffect(() => {
